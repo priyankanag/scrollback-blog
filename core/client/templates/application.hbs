@@ -1,0 +1,10 @@
+{{#unless hideNav}}
+    {{partial "navbar"}}
+{{/unless}}
+
+<main role="main" id="main">
+    {{ghost-notifications}}
+    
+    {{outlet}}
+</main>
+{{outlet modal}}
